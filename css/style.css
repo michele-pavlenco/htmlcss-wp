@@ -78,6 +78,7 @@ p {
   float: left;
   background-color: #abcfe7;
   height: 500px;
+
 }
 
 .central {
@@ -127,4 +128,13 @@ p {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5%;
   } 
+  footer{
+      text-align: center;
+      font-weight:bolder;
+      
+  }
+  .heart{
+      color: red;
+    
+  }
 
