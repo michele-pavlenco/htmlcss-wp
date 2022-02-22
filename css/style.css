@@ -76,20 +76,29 @@ p {
 .card {
   width: 50%;
   float: left;
-  background-color: #abcfe7;
+  /* background-color: #abcfe7; */
   height: 500px;
+  position: relative;
 
 }
+
 
 .central {
   border: 14px solid white;
   border-radius: 5%;
+  width: 50%;
+  float: left;
+  
+  height: 500px;
+  position: relative;
+
 }
-.card.card-side {
+ .card-side {
   width: 25%;
   border-top: white 14px solid;
   border-bottom: white 14px solid;
   border-radius: 5%;
+  float: left;
 }
 .banner1 {
   
@@ -99,6 +108,7 @@ p {
   overflow: hidden;
   background-size: cover;
   background-position: center
+  
 }
 .left {
   
@@ -109,6 +119,7 @@ p {
   background-size: cover;
   background-position: center
 }
+
 .right {
   
   height: 200px;
@@ -118,7 +129,7 @@ p {
   background-size: cover;
   background-position: center;
 }
-.card::before {
+ .card::before {
     content: "";
     position: absolute;
     top: 0;
@@ -128,13 +139,12 @@ p {
     background-color: rgba(0, 0, 0, 0.2);
     border-radius: 5%;
   } 
+
   footer{
-      text-align: center;
-      font-weight:bolder;
-      
+      text-align:center;
+      font-weight:bolder; 
   }
   .heart{
       color: red;
-    
   }
 
